@@ -1,9 +1,87 @@
-h2 {
+h1,h2,h3, h4, h5 {
+  font-family: "Playfair Display" , serif;
   font-weight: 700;
-  color: #c10dfda8;
+  color: black;
 }
 
 .card img {
   height: 180px;
   object-fit: cover;
+}
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(244, 238, 231, 0.777);
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+.navbar.bg-primary{
+background-color: burlywood!important;
+padding: 15px 0;
+
+}
+
+.navbar-brand {
+  font-family: "Playfair Display" ,serif;
+  font-size: 1,7rem;
+  color: rgba(255, 255, 255, 0.842) !important;
+}
+.nav-link {
+  font-size: 1.1rem;
+  margin-left: 15px;
+  color: aliceblue !important;
+  transition: 0.3s;
+
+}
+.nav-link:hover {
+ color: #c7c7c7 !important
+}
+#heroSlider img{
+  height: 90vh;
+  object-fit: cover;
+  filter: brightness(100%);
+
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  filter: invert(90%);
+
+}
+card:hover{
+  transform: translateY(-10px);
+}
+.card-title{
+  color: black;
+  font-family: "Playfair Dislplay", serif;
+
+}
+.card img{
+  height: 220px;
+  object-fit: cover;
+}
+.btn-primary,
+.btn-success{
+  background-color: burlywood!important;
+  border: none !important;
+  color: aliceblue !important;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.btn-primary:hover
+.btn-success:hover{
+  background-color: #b5b5b1 !important;
+}
+footer{
+  background: #000;
+  color: #8f8e8d;
+  font-size: 0.9rem;
+  padding: 20px 0;
+}
+footer a {
+color: aliceblue;
+transition: 0,3s;
+}
+footer a:hover{
+  color: #baaaa5;
 }
